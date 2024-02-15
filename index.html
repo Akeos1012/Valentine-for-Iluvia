@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <title>
+            Secret From City
+        </title>
+    
+    <style>
+
+    .yes{
+        background-color: #92140C;
+    color: #F9C846;
+    font-family: Dosis;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-left: 20px;
+    font-size: 20px;
+    transition: background-color 0.20s, color 1s;
+    }
+
+    .yes:hover {
+    background-color: #A4031F;
+    }
+
+    .no{
+        background-color: #92140C;
+    color: #F9C846;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: dosis;
+    font-size: 20px;
+    margin-right: 20px;
+    margin-left: 10px;
+    transition: background-color 0.20s, color 1s;
+    transition: border
+    
+    }
+
+    .no:hover {
+    background-color: #A4031F;
+    }
+
+    .wow {
+    color: #F6F7EB;
+    font-size: 30px;
+    font-family:Dosis;
+    
+    }
+
+    .bg{
+    background: linear-gradient(#231F20, #0D0B0C);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    }
+
+    .qs{
+
+    color:#F6F7EB; 
+    letter-spacing: 0.05em;
+    position: relative;
+    font-size: 200%;
+    font-family:Dosis;
+    margin-bottom: 3%;
+    }
+
+    .ss {
+    position: relative;
+    top: 520px;
+    }
+
+    .par {
+    color: white;
+    position: relative;
+    top: 505px;
+    }
+
+    #yesno{
+    position: relative;
+    margin-top: 10%;
+    
+    }
+     
+    .java{
+
+        color: white;
+    }
+
+    .cry {
+    position:relative;
+    width: 20%;
+    }
+    </style>
+
+<!--End OF THE STYLE!!!-->
+    </head>
+
+<!--INSIDE OF THE WEBSITE<33-->
+    <body class="bg">
+
+<div id="yesno">
+    <center>
+    <img src="asf.gif" class="cry">
+    <h3 class="qs">Will you be my late Valentine?</h3>
+    <a href="Rain2.html">
+    <button class="yes"> 
+    Yes
+    </button> 
+    </a>
+    <a class="wow">or</a>
+    <button class ="no" onclick = "get()">    
+    No
+    </button>
+    
+    <p id ="noo" style = "color: white; font-family:Dosis; position: relative; font-size: 20px; margin-top: 3%;"></p>
+
+
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap" rel="stylesheet">
+  
+<img src="https://i.kym-cdn.com/entries/icons/mobile/000/026/489/crying.jpg" jsaction="VQAsE" class="ss" style="max-width: 800px; margin: 0px; width: 10%;" alt="Crying Cat | Know Your Meme" jsname="kn3ccd" aria-hidden="false" style=" right: 30px; ">
+<p class="par">
+    plz... :((
+</p>
+
+<!--JAVASCRIPT-->
+
+<script>
+    var words = ["Why No? :((", "Please choose Yes :((", "Click yes :<", "Don't click No :<<", "i'm going to cry...", ":<<<<<<<<<<<<<<<<<"];
+    function get(){
+    var randomindex = Math.floor(Math.random() * words.length);
+
+    document.getElementById("noo").textContent = words[randomindex];
+}
+</script>
+</body>
+</center>
+</div>
+</html>
